@@ -32,9 +32,11 @@ export const LinkHome = styled(Link)`
 display: block;
 width: 4rem;
 text-aling: center; 
-margin: 2rem auto; 
-background-clor: #000;
+margin: 2rem 0; 
+background-color: #000;
 padding: .5rem 0;
-color: #fff; 
-text-decoration: none; 
+color: #fff;
+text-decoration: none;
+border-raidus: 5px;
+padding-left: 1rem;
 `
