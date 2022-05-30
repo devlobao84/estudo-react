@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-width: 100vw;
+export const HomeContainer = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 height: 100vh;
+`
+
+export const Content = styled.div`
+width: 100vw;
 display: flex; 
 align-items: center; 
 justify-content: center;
@@ -38,5 +45,12 @@ height: 1.6rem;
 export const OutroTeste = styled.h1`
 font-size: 18px;
 color: blue;
+`
+
+export const ErrorMsg = styled.span`
+display: block;
+font-size: 0.80rem;
+color: red; 
+margin-top: 1rem;
 `
 
